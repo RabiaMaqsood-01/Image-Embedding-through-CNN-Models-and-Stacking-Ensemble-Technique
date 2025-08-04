@@ -35,6 +35,8 @@ Image-Embedding-through-CNN-Models-and-Stacking-Ensemble/
 ├── requirements.txt                     # List of Python libraries needed to run the code
 └── README.md                            # Project overview, instructions, and visualizations
 ```
+The Embeddings.csv file contains learned image embeddings obtained by a trained meta-model on stacked embeddings from multiple CNN models. These embeddings can be reused for clustering, retrieval, or similarity tasks.
+
 ### Dataset
 - **CIFAR-10**: 60,000 32x32 color images.
 - **Source**: `https://www.cs.toronto.edu/~kriz/cifar.html`
